@@ -1,0 +1,134 @@
+*{
+   margin:0%;
+    padding:0%;
+}
+
+.main_bar{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*box-shadow: 2px 2px 10px  black;*/
+    text-decoration: none;
+    padding: 0px 14px;
+    border-bottom: 1.5px solid #a3a3a3b7;
+}
+
+.main_bar h2{
+    color: #41CD52;
+    font-size: 30px;
+    
+}
+.main_bar h2:hover{
+    color:#FFBB00;
+     
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+a{
+    text-decoration: none;
+    padding: 0px 17px;
+    color: #949393;
+}
+
+.menu a:hover{
+    color:#402D24;
+    font-size: 16.2px;
+    
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color:#41CD52;
+    color: white;
+    box-shadow: 0px 3px 5px #41cd51af;
+}
+
+.menu button:hover{
+    color:#FFBB00;
+    
+    }
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px;
+    margin-top: 80px;
+    margin-left: 15px;
+    
+}
+.container_info{
+   
+    padding:5px 10px;
+}
+.container_info h1{
+    margin-bottom: 15px;
+    font-family:   sans-serif;
+    font-size: 65px;
+   
+}
+
+.container_info p{
+    margin-bottom: 20px;
+    color:#949393;
+    font-size: 22px;
+    
+}
+
+.container_info button{
+    padding: 15px;
+    border-radius: 0px;
+    border: none;
+    background-color:#41CD52;
+    color: white;
+    box-shadow: 0px 10px 10px #41cd51af;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+
+}
+
+.container_info button:hover{
+    color:#FFBB00;
+    
+    }
+
+.container_info img{
+        margin-bottom: 0px;
+    }
+.footer_info{
+    margin-top:20px;
+    padding: 80px 0px  0px;
+    background-color:#e2dfdf ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.footer_redes{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+   
+    
+}
+
+.footer_redes a{
+    display: flex;
+    padding: 0px 0px;
+    }
+
+.footer_redes a:hover{
+   background-color: #775443;
+  padding: 2px 1px;
+   border-radius: 35px;
+    
+}
